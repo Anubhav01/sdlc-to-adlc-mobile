@@ -8,6 +8,11 @@ Every chapter has: a plain-language explanation, a mobile-specific lens, a "Doub
 ## Running case study
 One small e-commerce app, **ShopNest**, threads through every chapter so readers follow the same team, app, and problems from start to finish. See casestudy.md.
 
+## Licence
+Text: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). You may share and adapt it with credit, for non-commercial use, under the same licence. Code samples (when added under `code/`) are MIT licensed. See `LICENSE`.
+
+ShopNest is a fictional sample app created for learning.
+
 ## Contents
 **Part I: Where we are**
 1. The Classic Mobile SDLC

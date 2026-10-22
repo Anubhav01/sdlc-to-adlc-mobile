@@ -51,7 +51,9 @@ Each chapter picks up one of these.
 - Keep names and details consistent across chapters.
 - Where a scenario is illustrative rather than real, label it clearly as a composite example.
 
-## Open decisions for the author
-1. Should ShopNest be explicitly fictional, or based on a real project you have worked on? Real details make it stronger, but check confidentiality.
-2. Which stack should the code samples use: Kotlin with Jetpack Compose, Flutter, or React Native?
-3. Should the arc end with a success story, or an honest mix of wins and remaining problems?
+## Decisions (current defaults)
+1. **Fictional sample.** ShopNest is an illustrative example created for learning. It is not a real company or project, and no confidential details are used. The book states this plainly in the introduction.
+2. **Stack for code samples: Kotlin with Jetpack Compose (Android).** Chosen because ShopNest is Android first. Each chapter explains the idea in platform-neutral terms, so iOS and cross-platform readers can follow. Revisit if the author prefers another stack.
+3. **Ending: an honest mix of wins and remaining problems.** Readers trust a story that admits what is still hard.
+
+These are defaults and can change at any time.
