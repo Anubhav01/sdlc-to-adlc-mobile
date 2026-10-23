@@ -4,7 +4,7 @@
 > - What the Software Development Life Cycle (SDLC) is, in plain language
 > - The six stages every app goes through, and how teams organize them
 > - Why building a mobile app is different from building a website
-> - How a small team, ExampleMart, shipped a simple feature the old way, and where it hurt
+> - How a small team, ALDCMart, shipped a simple feature the old way, and where it hurt
 
 You do not need to know how to code to read this chapter. If a term is new, it is explained where it first appears and collected in the glossary at the end.
 
@@ -36,7 +36,7 @@ flowchart LR
 
 Notice the dotted arrow. The cycle never really ends. What users tell you after release becomes the plan for the next round.
 
-| Stage | The question it answers | Example from the ExampleMart app |
+| Stage | The question it answers | Example from the ALDCMart app |
 |---|---|---|
 | **1. Plan** | What are we building, and why? | Customers keep leaving because they lose their basket. We need an "Add to cart" that remembers items. |
 | **2. Design** | How will it look and work? | A cart icon with a number badge, a cart screen, and a rule for what happens when an item is out of stock. |
@@ -110,12 +110,12 @@ This slow, careful feedback loop is the key idea to carry into the rest of the b
 
 ---
 
-## 1.5 ExampleMart: how "Add to cart" shipped the old way
+## 1.5 ALDCMart: how "Add to cart" shipped the old way
 
-> **About ExampleMart.** ExampleMart is a fictional small e-commerce app used throughout this book, created only as a learning example. It sells home goods in Indian cities, and its customers are mostly on budget Android phones with patchy mobile data. The team is small: **Asha** (product owner), **Ravi** (Android developer), **Meera** (QA), and **Imran** (tech lead). This chapter shows the team *before* any AI agents join, so you can see the starting point.
+> **About ALDCMart.** ALDCMart is a fictional small e-commerce app used throughout this book, created only as a learning example. It sells home goods in Indian cities, and its customers are mostly on budget Android phones with patchy mobile data. The team is small: **Asha** (product owner), **Ravi** (Android developer), **Meera** (QA), and **Imran** (tech lead). This chapter shows the team *before* any AI agents join, so you can see the starting point.
 
 ### The goal
-ExampleMart customers add items to a basket, then often get interrupted and lose it. Asha wants a cart that remembers items so people can return and finish buying.
+ALDCMart customers add items to a basket, then often get interrupted and lose it. Asha wants a cart that remembers items so people can return and finish buying.
 
 ### The timeline
 
@@ -157,7 +157,7 @@ Later in this book, Ravi starts using AI agents. His new routine looks very diff
 5. Each piece goes up as its own small **pull request** (a proposed change that others review), and a second agent reviews it.
 6. A human, Imran, gives the final approval before anything is merged and released.
 
-Look back at the ExampleMart timeline. The out-of-stock question would have been raised on Day 1. More edge cases would have been tested. And a human still decides at the key points. We do not claim agents fix everything: store review still takes two days, and a rare phone model can still fail. But the shape of the work changes. Chapter 4 gives this pattern a name, **ADLC**, and later chapters show how to build it step by step.
+Look back at the ALDCMart timeline. The out-of-stock question would have been raised on Day 1. More edge cases would have been tested. And a human still decides at the key points. We do not claim agents fix everything: store review still takes two days, and a rare phone model can still fail. But the shape of the work changes. Chapter 4 gives this pattern a name, **ADLC**, and later chapters show how to build it step by step.
 
 ---
 
@@ -191,11 +191,11 @@ No. Some chapters show code for developers, but each explains the idea in plain 
 - Agile runs the stages in short loops; CI/CD automates the repetitive parts.
 - Mobile is different because the store and the user stand between you and your app. Fixes are slow and mistakes are hard to undo.
 - Because of that, mobile teams test heavily before release and roll out gradually after.
-- ExampleMart's first cart took about 26 days, mostly because of unclear requirements, limited device testing, and waiting.
+- ALDCMart's first cart took about 26 days, mostly because of unclear requirements, limited device testing, and waiting.
 
 ## Try it
 
-1. **Draw your own timeline.** Pick the last feature you shipped and write the days from idea to stable release, like the ExampleMart table. Mark every day you were *waiting* rather than working.
+1. **Draw your own timeline.** Pick the last feature you shipped and write the days from idea to stable release, like the ALDCMart table. Mark every day you were *waiting* rather than working.
 2. **Find your first guess.** Which question did your team answer by guessing instead of asking? What did the guess cost?
 3. **Check your phones.** List the devices your app is tested on. Which kinds of phones are missing?
 
