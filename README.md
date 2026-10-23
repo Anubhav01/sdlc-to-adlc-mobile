@@ -6,12 +6,12 @@ A beginner-first guide to how the software development lifecycle changes when AI
 Every chapter has: a plain-language explanation, a mobile-specific lens, a "Doubt Box" of real beginner questions, and a "Try it" exercise. Doubts raised in our discussions are added to the Doubt Boxes.
 
 ## Running case study
-One small e-commerce app, **ALDCMart**, threads through every chapter so readers follow the same team, app, and problems from start to finish. See casestudy.md.
+One small e-commerce app, **AGMart**, threads through every chapter so readers follow the same team, app, and problems from start to finish. See casestudy.md.
 
 ## Licence
 Text: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). You may share and adapt it with credit, for non-commercial use, under the same licence. Code samples (when added under `code/`) are MIT licensed. See `LICENSE`.
 
-ALDCMart is a fictional sample app created for learning. Any resemblance to a real business, app, or brand name is coincidental.
+AGMart is a fictional sample app created for learning. Any resemblance to a real business, app, or brand name is coincidental.
 
 ## Contents
 **Part I: Where we are**
